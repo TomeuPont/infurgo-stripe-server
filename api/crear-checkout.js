@@ -1,5 +1,5 @@
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-
+// comentario temporal
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).send({ message: 'Only POST requests allowed' });
