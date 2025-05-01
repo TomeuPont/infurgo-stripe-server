@@ -1,9 +1,4 @@
 
-{
-  "version": 2,
-  "functions": {
-    "api/crear-checkout.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
-}
+/api/
+  crear-checkout.js
+/vercel.json
